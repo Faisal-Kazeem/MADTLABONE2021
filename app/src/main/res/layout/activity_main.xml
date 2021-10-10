@@ -19,9 +19,20 @@
         android:id="@+id/btnChangeTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Me!"
+        android:text="Click Me To Change Text!"
         android:onClick="onBtnClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnChangeColour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="536dp"
+        android:text="Click Me To Change Colour!"
+        android:onClick="onBtnClick2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeTxt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
